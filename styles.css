@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 320px;
+    margin: 0;
+    background: #fbf6ec;
+    font-family: "Inter", Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: #28130c;
+    color: #fbf6ec;
+  }
+}
